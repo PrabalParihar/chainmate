@@ -18,7 +18,10 @@ module.exports = {
 			"Teknaf": ["Teknaf", "system-ui", "sans-serif"]
 		},
   		animation: {
-  			aurora: 'aurora 60s linear infinite'
+  			aurora: 'aurora 60s linear infinite',
+			'scroll-1': 'scroll-1 2s infinite',
+        'scroll-2': 'scroll-2 2s infinite',
+        'scroll-3': 'scroll-3 2s infinite'
   		},
   		keyframes: {
   			aurora: {
@@ -28,7 +31,19 @@ module.exports = {
   				to: {
   					backgroundPosition: '350% 50%, 350% 50%'
   				}
-  			}
+  			},
+			'scroll-1': {
+          '0%, 100%': { transform: 'translateY(0)', opacity: '0.2' },
+          '50%': { transform: 'translateY(8px)', opacity: '0' }
+        },
+        'scroll-2': {
+          '0%, 100%': { transform: 'translateY(0)', opacity: '0.6' },
+          '50%': { transform: 'translateY(8px)', opacity: '0.2' }
+        },
+        'scroll-3': {
+          '0%, 100%': { transform: 'translateY(0)', opacity: '1' },
+          '50%': { transform: 'translateY(8px)', opacity: '0.6' }
+        }
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -97,3 +112,4 @@ function addVariablesForColors({ addBase, theme }: {
 	});
   }
   
+ 
