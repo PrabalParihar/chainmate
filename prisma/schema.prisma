@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id
+  walletId String?  // <-- Added: stores the wallet details JSON
+  networkId String?
+  seed String? @unique
+  email         String?
+  chats         Chat[]
+  createdAt     DateTime @default(now())
+}
+
+model Chat {
+  id         String    @id @default(cuid())
+  userId     String
+  user       User      @relation(fields: [userId], references: [id])
+  messages   Message[]
+  title      String?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+}
+
+model Message {
+  id         String   @id @default(cuid())
+  chatId     String
+  chat       Chat     @relation(fields: [chatId], references: [id])
+  content    String
+  sender     String
+  timestamp  DateTime @default(now())
+}
