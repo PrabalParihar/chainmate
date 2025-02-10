@@ -2,6 +2,10 @@
 
 ChainMate is your AI-powered crypto companion that makes digital finance feel natural. Send, receive, and manage crypto through simple conversations - as easy as chatting with a friend. Built on Base blockchain for security you can trust.
 
+<img width="1439" alt="Screenshot 2025-02-10 at 2 24 54 PM" src="https://github.com/user-attachments/assets/61f6f637-2b32-415d-9a3d-10d9352e51cb" />
+<img width="1438" alt="Screenshot 2025-02-10 at 2 25 39 PM" src="https://github.com/user-attachments/assets/d4e0363e-3307-4cd7-8e5e-575e9d56adab" />
+
+
 ## ⚡ Features
 
 - **Natural Language Interactions** - Chat naturally to manage your crypto
