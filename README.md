@@ -4,6 +4,8 @@ ChainMate is your AI-powered crypto companion that makes digital finance feel na
 
 <img width="1439" alt="Screenshot 2025-02-10 at 2 24 54 PM" src="https://github.com/user-attachments/assets/61f6f637-2b32-415d-9a3d-10d9352e51cb" />
 <img width="1438" alt="Screenshot 2025-02-10 at 2 25 39 PM" src="https://github.com/user-attachments/assets/d4e0363e-3307-4cd7-8e5e-575e9d56adab" />
+<img width="1362" alt="Screenshot 2025-02-10 at 2 29 55 PM" src="https://github.com/user-attachments/assets/3387d031-8346-4ed2-ba36-6bc83c887efb" />
+
 
 
 ## ⚡ Features
